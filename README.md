@@ -1,0 +1,1 @@
+This is a hydration calculator that finds out how much water you need to drink daily based on your age, sex, height, weight, activity level, and climate.

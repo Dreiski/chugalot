@@ -1,0 +1,5 @@
+{
+  "name": "Chugalot",
+  "description": "Find out how much water you need to drink each day based on your age, sex, height, weight, activity level, and climate.",
+  "requestFramePermissions": []
+}
