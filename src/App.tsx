@@ -10,6 +10,7 @@ import {
   RefreshCw
 } from 'lucide-react';
 
+
 type ActivityLevel = 'sedentary' | 'light' | 'moderate' | 'intense' | 'veryIntense';
 type Climate = 'cool' | 'warm' | 'hot' | 'veryHot';
 
