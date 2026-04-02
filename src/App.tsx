@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import { Analytics } from "@vercel/analytics/react"
 import { 
   Droplets, 
   ChevronDown, 
@@ -130,6 +131,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <Analytics />
       {/* TopNavBar */}
       <nav className="w-full sticky top-0 z-50 bg-slate-50/60 backdrop-blur-xl border-b border-slate-200/20">
         <div className="flex justify-between items-center max-w-5xl mx-auto px-5 md:px-8 py-4">
